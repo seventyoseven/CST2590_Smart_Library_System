@@ -10,3 +10,11 @@ Each Arduino manages a dedicated zone:
 The ESP32 acts as the central communication bridge, coordinating data from all subsystems and transmitting it to the IoT platform. After testing multiple platforms—including Blynk and ThingSpeak—the system ultimately uses **Google Sheets via webhook integration**, chosen for its reliability, clarity, and ease of data logging.
 
 This repository contains all code and documentation for the complete Smart Library prototype, covering the gate system, smart shelf, checkout station, and IoT integration workflow.
+
+
+Instructions:
+- Download and unzip folder
+- Take "Streamlit" folder outside and run "fashboard.py" on terminal:
+    streamlit run dashboard.py
+- "Arduino" folders are for Arduino IDE codes. 
+- "Pyserial_comms" folder is for Gateway's Python code. Make sure to run gatesystem.ino first and then gatesystem.py
